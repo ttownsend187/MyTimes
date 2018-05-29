@@ -2,7 +2,6 @@ body {
   margin: 0
 }
 header{
-  flex
   display: flex;
   font-family: Verdana;
   font-size: 14px;
@@ -18,4 +17,47 @@ header{
 }
 nav {
   display: inline-flex;
+  justify-content: space-around;
   }
+.main_content{
+  display: flex;
+}
+.left_content{
+  display: flex;
+  border: 2px solid black;
+  flex-direction: column;
+}
+.left_item1{
+  border: 1px solid black;
+}
+.left_item2{
+  border: 1px solid black;
+}
+.left_item3{
+  border: 1px solid black;
+}
+.mid_content{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.mid_item1 {
+  border: 1px solid black;
+}
+.mid_item2{
+  border: 1px solid black;
+}
+.right_content{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.right_item1 {
+  border: 1px solid black;
+}
+.right_item2{
+  border: 1px solid black;
+}
+.byline{
+  border: 1px solid black;
+}
