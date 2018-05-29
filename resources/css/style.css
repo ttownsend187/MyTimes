@@ -1,73 +1,47 @@
-body {
-  margin: 0
-}
 header{
-  display: flex;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
-  border-bottom: 1px solid black;
-}
-nav span {
-  display: inline-block;
-  padding: 20px 10px;
-}
-header nav {
-  padding-right: 40px;
-}
 
-.logo {
-  color: MediumAquamarine;
-  display: flex;
-  font-weight: bold;
 }
 nav {
-  display: inline-flex;
 
-  }
-.main_content{
-  display: flex;
 }
-.left_content{
-  display: flex;
-  border: 2px solid black;
-  flex-direction: column;
-  width: 630px;
+nav span{}
+.logo{
+
 }
-.left_item1{
-  border: 1px solid black;
+.main_content{}
+.large{
+
 }
-.left_item2{
-  border: 1px solid black;
+.headline {
+
 }
-.left_item3{
-  border: 1px solid black;
+.headline_image{
+
 }
-.mid_content{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
-  width: 300px;
+.text{
+
 }
-.mid_item1 {
-  border: 1px solid black;
+.image_content{
+
 }
-.mid_item2{
-  border: 1px solid black;
+.content{
+
 }
-.right_content{
-  display: flex;
-  flex-direction: column;
-  border: 2px solid black;
-  width: 240px;
+.story{
+
 }
-.right_item1 {
-  border: 1px solid black;
+.medium{
+
 }
-.right_item2{
-  border: 1px solid black;
+.small{
+
 }
-.byline{
-  border: 1px solid black;
-  margin : auto
+.cookie{
+
+}
+.news_bites{
+
+}
+.bite{
+  
 }
