@@ -7,9 +7,15 @@ header{
   font-size: 14px;
   font-weight: bold;
   border-bottom: 1px solid black;
-
-
 }
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+header nav {
+  padding-right: 40px;
+}
+
 .logo {
   color: MediumAquamarine;
   display: flex;
@@ -17,7 +23,7 @@ header{
 }
 nav {
   display: inline-flex;
-  justify-content: space-around;
+
   }
 .main_content{
   display: flex;
@@ -26,6 +32,7 @@ nav {
   display: flex;
   border: 2px solid black;
   flex-direction: column;
+  width: 630px;
 }
 .left_item1{
   border: 1px solid black;
@@ -40,6 +47,7 @@ nav {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  width: 300px;
 }
 .mid_item1 {
   border: 1px solid black;
@@ -51,6 +59,7 @@ nav {
   display: flex;
   flex-direction: column;
   border: 2px solid black;
+  width: 240px;
 }
 .right_item1 {
   border: 1px solid black;
@@ -60,4 +69,5 @@ nav {
 }
 .byline{
   border: 1px solid black;
+  margin : auto
 }
