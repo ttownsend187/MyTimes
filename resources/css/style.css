@@ -1,40 +1,89 @@
 header{
+  font-family: Verdana;
+   font-size: 14px;
+   font-weight: bold;
+   display: flex;
+}
+
+nav span{
+  display: inline-block;
 
 }
-nav {
 
-}
-nav span{}
 .logo{
-
+  color: mediumaquamarine;
+  display: flex;
+  align-items: center;
 }
-.main_content{}
-.large{
 
+.main_content{
+  display: flex;
 }
-.headline {
 
-}
-.headline_image{
-
-}
 .text{
-
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
 }
+
+/* large */
+
+.large{
+  width: 630px;
+  display: flex;
+}
+
+.content h2{
+  font-family: Georgia;
+  font-size: 30px;
+  color: black;
+}
+
 .image_content{
-
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
+
+.headline_image{
+  background-image: url("../../resources/images/img-story-main.png");
+  display: flex;
+}
+
+.headline_image h1{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+.earth-spins.image_content{
+  background-image: url("../../resources/images/img-story-1.png");
+}
+.research.image_content{
+  background-image: url("../../resources/images/img-story-2.png");
+}
+.cats.image_content{
+  background-image: url("../../resources/images/img-story-3.png");
+}
+
 .content{
 
 }
 .story{
 
 }
+
+/* medium column */
+
 .medium{
-
+  width: 300px;
 }
-.small{
 
+/* small column */
+.small{
+  width: 240px;
 }
 .cookie{
 
@@ -43,5 +92,5 @@ nav span{}
 
 }
 .bite{
-  
+
 }
